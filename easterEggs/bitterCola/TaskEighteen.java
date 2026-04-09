@@ -7,12 +7,14 @@ public static void main(String[] agrs){
 
          Scanner userInput = new Scanner(System.in);
      System.out.print("Enter an integer: ");
-             int numberInput1 = userInput.nextInt();
+             double numberInput1 = userInput.nextDouble();
 
+
+                double root = numberInput1;
+                double squareRoot = Math.sqrt(root);
           
-                int squareRoot = numberInput1 * numberInput1;
 
-                if (numberInput1 * numberInput1 == squareRoot){
+                if (numberInput1 * numberInput1 = squareRoot && squareRoot = numberInput){
                      System.out.print("its a square root \n");
                     }
 

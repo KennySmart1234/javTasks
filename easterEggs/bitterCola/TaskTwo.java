@@ -29,7 +29,5 @@ public static void main(String[] agrs){
 
     System.out.print(divisionDigit1 + divisionDigit5 +"\n");
 
-//    System.out.print(divisionDigit3 + divisionDigit2 + divisionDigit1 + "\n");
-
 }
 }

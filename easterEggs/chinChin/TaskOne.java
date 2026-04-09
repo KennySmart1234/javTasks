@@ -37,14 +37,6 @@ public static void main(String[] agrs){
     }
 
 =======
-            System.out.print("Enter a miles number: ");
-               int milesInput = userInput.nextInt();
-                       
-
-            double kilometerResult = milesInput * 0.621371;
-
-
-    System.out.print("The kilometer is:" + kilometerResult + "\n");
 
 
 }
