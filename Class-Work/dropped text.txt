@@ -1,0 +1,12 @@
+while True:
+    user_input = input("Enter a number: ")
+
+    if user_input == "done":
+        break
+
+        user_input = int(user_input)
+        largest_number = None
+        if largest_number is None or user_input > largest_number:
+            largest_number = user_input
+
+print(largest_number) 

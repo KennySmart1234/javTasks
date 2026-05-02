@@ -13,7 +13,7 @@ public class BackToSender{
             }
 
         public static int riderWage(int numberOfDelivery){
-                int amountPerParcel = 0;
+                int amountPerParcel;
                    if(numberOfDelivery < 50){
                        amountPerParcel = 160;
                     }
@@ -23,7 +23,7 @@ public class BackToSender{
                    else if(numberOfDelivery == 60 && numberOfDelivery <= 69){
                         amountPerParcel = 250;
                     }
-                   else if(numberOfDelivery >= 70){
+                   else{
                         amountPerParcel = 500;
                     }
                 int riderDayPayment = (numberOfDelivery * amountPerParcel) + 5000;
