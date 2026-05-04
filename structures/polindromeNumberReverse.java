@@ -11,7 +11,6 @@ public static void reverse(int number){
         System.out.print(extract);
         number = number/10;
      }
-//     return extract;
      
 
 }
